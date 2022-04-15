@@ -1,0 +1,13 @@
+*,html{
+    scroll-behavior: smooth;
+}
+.button-explore{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.main-box{
+    background-color: #441944;
+}
+.main-lower-box{
+    margin-top: -4rem;
+    background-color: #311D38;
+}

@@ -56,6 +56,10 @@ html {
   .button-explore {
     font-size: 1rem !important;
   }
+
+  .img-goaBawah {
+    top: 65rem !important;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -151,5 +155,51 @@ html {
 
   .img-goaBawah {
     top: 55rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-box {
+    padding-top: 9rem !important;
+  }
+  .header-2 {
+    font-size: 2.4rem !important;
+  }
+  .header-3 {
+    font-size: 1.4rem;
+  }
+  .img-pernik2 {
+    right: -4.9rem !important;
+    height: 709px !important;
+  }
+  .text-section {
+    font-size: 1rem !important;
+  }
+  .profile-box {
+    width: 100% !important;
+    gap: 3rem;
+  }
+  .profile-wrap {
+    width: 280px !important;
+    padding: 4rem 2rem 2rem 1rem !important;
+    gap: 2rem !important;
+  }
+  .img-goaBawah {
+    bottom: 0rem !important;
+  }
+  .img-artList {
+    height: 290px !important;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 640x) {
+  .img-artList {
+    height: 100px !important;
+    gap: 0.5rem;
+  }
+  .img-pernik2 {
+    right: -5rem !important;
+    height: 690px !important;
   }
 }

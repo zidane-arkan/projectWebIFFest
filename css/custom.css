@@ -162,6 +162,9 @@ html {
   .main-box {
     padding-top: 9rem !important;
   }
+  .header-text-box{
+    top: 10rem !important;
+  }
   .header-2 {
     font-size: 2.4rem !important;
   }
@@ -191,6 +194,27 @@ html {
   .img-artList {
     height: 290px !important;
     gap: 1rem;
+  }
+
+  .img-background {
+    height: 53vh !important;
+    top: 0 !important;
+    width: 1920px !important;
+  }
+
+  .img-mountain {
+    height: 44vh !important;
+    top: 10rem !important;
+    right: 0rem !important;
+  }
+
+  .img-trees {
+    height: 42vh !important;
+    top: 14rem !important;
+  }
+
+  .top-img-box {
+    height: 66vh !important;
   }
 }
 

@@ -162,8 +162,9 @@ html {
   .main-box {
     padding-top: 9rem !important;
   }
-  .header-text-box{
-    top: 10rem !important;
+  .header-text-box {
+    top: 8rem !important;
+    gap: 1rem !important;
   }
   .header-2 {
     font-size: 2.4rem !important;
@@ -184,7 +185,7 @@ html {
   }
   .profile-wrap {
     width: 280px !important;
-    padding: 4rem 2rem 2rem 1rem !important;
+    padding: 4rem 1rem 2rem 1rem !important;
     gap: 2rem !important;
   }
   .img-goaBawah {
@@ -215,6 +216,42 @@ html {
 
   .top-img-box {
     height: 66vh !important;
+  }
+
+  .festival-box {
+    height: 35vh !important;
+  }
+  .culture-box {
+    height: 65vh !important;
+  }
+  .header-box {
+    width: 100% !important;
+  }
+
+  .img-culture {
+    height: 242px !important;
+  }
+
+  .text-section {
+    display: none;
+  }
+  .img-pernik1,
+  .img-pernik2 {
+    display: none;
+  }
+
+  .review-box {
+    padding-top: 13rem !important;
+    height: 113vh !important;
+    gap: 5rem;
+  }
+
+  .img-goaBawah {
+    top: 52rem !important;
+    bottom: 0rem !important;
+  }
+  .img-goaAtas {
+    top: -10rem !important;
   }
 }
 

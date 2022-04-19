@@ -292,7 +292,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 640x) {
+@media only screen and (max-width: 640px) {
   .img-artList {
     height: 100px !important;
     gap: 0.5rem;
@@ -301,5 +301,38 @@ html {
   .img-pernik2 {
     right: -5rem !important;
     height: 690px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .img-artList {
+    height: 300px !important;
+    gap: 1rem;
+  }
+  #culterGrid {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    gap: 2rem;
+  }
+  .culture-box {
+    height: 95vh !important;
+  }
+  .img-goaAtas {
+    top: -5rem !important;
+  }
+  .img-goaBawah {
+    top: 85rem !important;
+  }
+  .header-2 {
+    margin-left: 2rem;
+  }
+  #rev1 {
+    flex-direction: column;
+    column-gap: 2rem;
+  }
+  .review-box {
+    padding: 14rem 0 10rem 0 !important;
+    height: 100% !important;
+    gap: 5rem !important;
   }
 }

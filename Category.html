@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ["Inter", "Arial", "sans-serif"],
+                    },
+                    colors: {
+                        ungu: "#441944",
+                    },
+                },
+            },
+        };
+    </script>
+    <title>Categori</title>
+</head>
+
+<body class="bg-ungu">
+    <main class="flex justify-center items-center md:p-5 xl:p-16 h-screen">
+        <article class="grid grid-cols-2 gap-8">
+            <section class="text-white flex flex-col justify-center">
+                <h1 class="font-sans font-bold text-center md:text-3xl lg:text-4xl xl:text-5xl lg:mb-10 md:mb-6">Tarian
+                    Legong
+                    Kraton</h1>
+                <p class="font-sans font-medium sm:text-xs md:text-xs lg:text-lg">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et doloribus exercitationem, cum
+                    praesentium consequatur veniam, veritatis illum vero amet consectetur dolor architecto hic itaque
+                    error aperiam obcaecati vitae a
+                    repellat rem eaque sit odit eius distinctio saepe. Est blanditiis expedita, ab totam iste voluptatem
+                    cupiditate eum, tempore similique ipsum doloribus ipsam, dicta esse illo.
+
+                </p>
+            </section>
+            <section id="conten-pic" class="lg:h-full xl:h-screen md:py-24">
+                <div class="rounded-xl flex items-center justify-center xl:h-full">
+                    <img class="bg-cover shrink xl:bg-cover rounded-xl xl:w-[100%] xl:h-auto"
+                        src="./assets/categori1.png" alt="Foto of" />
+                </div>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>

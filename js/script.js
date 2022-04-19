@@ -1,11 +1,12 @@
-import anime from './anime.es.js';
-anime({
-    targets: '.img-mountain',
-    translateY: 0,
-    opacity: 1,
-    duration: 1500,
-    easing: 'linear'
-});
+onload = function () {
+    let customAnimation = anime({
+        targets: '.img-mountain',
+        translateY: 0,
+        opacity: 1,
+        duration: 1500,
+        easing: 'linear'
+    });
+};
 
 // var tl = anime.timeline({
 //     easing: 'easeOutExpo',

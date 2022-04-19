@@ -1,13 +1,431 @@
-*,html{
-    scroll-behavior: smooth;
+*,
+html {
+  scroll-behavior: smooth;
 }
-.button-explore{
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+.button-explore {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.main-box{
-    background-color: #441944;
+
+.main-box {
+  background-color: #441944;
 }
-.main-lower-box{
-    margin-top: -4rem;
-    background-color: #311D38;
+
+.main-lower-box {
+  margin-top: -4rem;
+  background-color: #311d38;
+}
+
+.img-mountain{
+  opacity: 0;
+  transform: translateY(1000px);
+}
+
+@media only screen and (max-width: 1440px) {
+  .header-2 {
+    font-size: 3.5rem !important;
+  }
+
+  .text-section {
+    font-size: 1rem !important;
+  }
+
+  .culture-text-box {
+    width: 98% !important;
+  }
+
+  .img-trees {
+    height: 64.5vh !important;
+  }
+
+  .img-artList {
+    height: 500px !important;
+  }
+
+  .img-culture {
+    height: 435px !important;
+  }
+
+  .img-pernik1 {
+    height: 1180px !important;
+    top: -11rem !important;
+    left: -12rem !important;
+  }
+
+  .img-pernik2 {
+    right: -8.9rem !important;
+    height: 1014px !important;
+  }
+
+  .img-goaAtas {
+    top: -14rem !important;
+  }
+
+  .review-box {
+    height: 154vh !important;
+    padding-top: 25rem !important;
+  }
+
+  .profile-box {
+    width: 80% !important;
+  }
+
+  .button-explore {
+    font-size: 1rem !important;
+  }
+
+  .img-goaBawah {
+    top: 72rem !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-box {
+    padding-top: 11rem !important;
+  }
+
+  .header-2 {
+    font-size: 3rem !important;
+  }
+
+  .header-3 {
+    font-size: 1rem !important;
+  }
+
+  .text-section {
+    font-size: 0.9rem !important;
+  }
+  .text-culture {
+    width: 75% !important;
+  }
+
+  .top-img-box {
+    height: 76vh !important;
+  }
+
+  .img-background {
+    height: 79vh !important;
+    top: -1.2rem !important;
+    width: 1920px !important;
+  }
+
+  .img-trees {
+    height: 52vh !important;
+    top: 14rem !important;
+  }
+
+  .img-mountain {
+    height: 55vh !important;
+    top: 10rem !important;
+    right: 0rem !important;
+  }
+
+  .festival-box {
+    height: 65vh !important;
+  }
+
+  .festival-p {
+    width: 87% !important;
+  }
+
+  .culture-box {
+    margin-bottom: 5rem !important;
+  }
+
+  .culture-text-box {
+    width: 97% !important;
+  }
+
+  .img-culture {
+    height: 310px !important;
+  }
+
+  .img-artList {
+    height: 345px !important;
+  }
+
+  .button-explore {
+    font-size: 0.9rem !important;
+  }
+
+  .img-pernik1 {
+    height: 900px !important;
+    top: -12rem !important;
+    left: -9rem !important;
+  }
+
+  .img-pernik2 {
+    right: -6.4rem !important;
+    height: 709px !important;
+  }
+
+  .review-box {
+    padding-top: 13rem !important;
+    height: 130vh !important;
+    gap: 7rem !important;
+  }
+
+  .profile-box {
+    width: 100% !important;
+    gap: 6rem !important;
+  }
+
+  .profile-wrap {
+    width: 377px !important;
+    padding: 4rem 2rem 2rem 1rem !important;
+    gap: 2rem !important;
+  }
+
+  .img-review-wrap {
+    top: -3.5rem !important;
+    width: 110px !important;
+    height: 110px !important;
+  }
+
+  .img-profileList {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .img-goaBawah {
+    top: 57rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-box {
+    padding-top: 9rem !important;
+  }
+
+  .header-text-box {
+    top: 8rem !important;
+    gap: 1rem !important;
+  }
+
+  .header-2 {
+    font-size: 2.4rem !important;
+  }
+
+  .header-3 {
+    font-size: 1.4rem;
+  }
+
+  .img-pernik2 {
+    right: -4.8rem !important;
+    height: 709px !important;
+  }
+
+  .text-section {
+    font-size: 1rem !important;
+  }
+
+  .img-goaBawah {
+    top: 62rem !important;
+    bottom: 0rem !important;
+  }
+
+  .img-artList {
+    height: 290px !important;
+    gap: 1rem;
+  }
+
+  .img-background {
+    height: 53vh !important;
+    top: 0 !important;
+    width: 1920px !important;
+  }
+
+  .img-mountain {
+    height: 44vh !important;
+    top: 10rem !important;
+    right: 0rem !important;
+  }
+
+  .img-trees {
+    height: 42vh !important;
+    top: 14rem !important;
+  }
+
+  .top-img-box {
+    height: 66vh !important;
+  }
+
+  .festival-box {
+    height: 35vh !important;
+  }
+
+  .culture-box {
+    height: 65vh !important;
+  }
+
+  .header-box {
+    width: 100% !important;
+  }
+
+  .img-culture {
+    height: 242px !important;
+  }
+
+  .text-section {
+    display: none;
+  }
+
+  .img-pernik1,
+  .img-pernik2 {
+    display: none;
+  }
+
+  .review-box {
+    padding-top: 14rem !important;
+    height: 110vh !important;
+    gap: 5rem !important;
+  }
+  .profile-box {
+    width: 100% !important;
+    gap: 3rem !important;
+  }
+
+  .profile-wrap {
+    width: 302px !important;
+    padding: 4rem 1rem 2rem 1rem !important;
+    gap: 2rem !important;
+  }
+  .img-goaBawah {
+    top: 52rem !important;
+    bottom: 0rem !important;
+  }
+
+  .img-goaAtas {
+    top: -10rem !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .img-artList {
+    height: 100px !important;
+    gap: 0.5rem;
+  }
+
+  .img-pernik2 {
+    right: -5rem !important;
+    height: 690px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 2.5rem !important;
+    line-height: 1 !important;
+  }
+
+  h3 {
+    font-size: 1.5rem !important;
+    line-height: 2.25rem !important;
+  }
+  h2,
+  .header-2 {
+    font-size: 2rem !important;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+
+  .top-img-box {
+    height: 42vh !important;
+  }
+  .header-text-box {
+    top: 5rem !important;
+    gap: 1rem !important;
+  }
+  .header-title-box {
+    gap: 0.5rem !important;
+  }
+
+  .img-background {
+    height: 41vh !important;
+    top: 0rem !important;
+    width: 1920px !important;
+  }
+
+  .img-mountain {
+    height: 23vh !important;
+    top: 10rem !important;
+    right: 0rem !important;
+  }
+
+  .img-trees {
+    height: 22vh !important;
+    top: 12rem !important;
+  }
+
+  .top-img-box {
+    height: 42vh !important;
+  }
+
+  .art-festival-box {
+    align-items: flex-start !important;
+    gap: 0 !important;
+    margin-left: 2rem !important;
+  }
+  .button-explore {
+    font-size: 10px !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .header-culture {
+    width: 350px !important;
+  }
+  .header-3 {
+    font-size: 1rem !important;
+  }
+  .img-culture {
+    width: 85%;
+    height: 170px !important;
+  }
+
+  .img-artList {
+    width: 159px !important;
+    height: 300px !important;
+    gap: 1rem;
+  }
+  #culterGrid {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    gap: 2rem;
+  }
+  .culture-box {
+    height: 100vh !important;
+  }
+  #rev1 {
+    flex-direction: column;
+    column-gap: 2rem;
+  }
+  .review-box {
+    padding: 14rem 0 10rem 0 !important;
+    height: 100% !important;
+    gap: 5rem !important;
+  }
+
+  .profile-box {
+    width: 100% !important;
+    gap: 5rem !important;
+  }
+  .img-goaAtas {
+    top: -4rem !important;
+  }
+  .img-goaBawah {
+    top: 89rem !important;
+    bottom: 0rem !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header-culture {
+    width: 311px !important;
+  }
+  .img-artList {
+    width: 141px !important;
+  }
 }

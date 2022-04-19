@@ -2,12 +2,15 @@
 html {
   scroll-behavior: smooth;
 }
+
 .button-explore {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 .main-box {
   background-color: #441944;
 }
+
 .main-lower-box {
   margin-top: -4rem;
   background-color: #311d38;
@@ -17,9 +20,11 @@ html {
   .header-2 {
     font-size: 3.5rem !important;
   }
+
   .text-section {
     font-size: 1rem !important;
   }
+
   .culture-text-box {
     width: 90% !important;
   }
@@ -27,17 +32,21 @@ html {
   .img-trees {
     height: 64.5vh !important;
   }
+
   .img-artList {
     height: 500px !important;
   }
+
   .img-culture {
     height: 435px !important;
   }
+
   .img-pernik1 {
     height: 1180px !important;
     top: -11rem !important;
     left: -12rem !important;
   }
+
   .img-pernik2 {
     right: -8.9rem !important;
     height: 1014px !important;
@@ -46,9 +55,12 @@ html {
   .img-goaAtas {
     top: -14rem !important;
   }
+
   .review-box {
-    padding-top: 26rem !important;
+    height: 154vh !important;
+    padding-top: 25rem !important;
   }
+
   .profile-box {
     width: 80% !important;
   }
@@ -58,7 +70,7 @@ html {
   }
 
   .img-goaBawah {
-    top: 65rem !important;
+    top: 72rem !important;
   }
 }
 
@@ -66,12 +78,15 @@ html {
   .main-box {
     padding-top: 11rem !important;
   }
+
   .header-2 {
     font-size: 3rem !important;
   }
+
   .header-3 {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
+
   .text-section {
     font-size: 0.9rem !important;
   }
@@ -79,15 +94,18 @@ html {
   .top-img-box {
     height: 76vh !important;
   }
+
   .img-background {
     height: 79vh !important;
     top: -1.2rem !important;
     width: 1920px !important;
   }
+
   .img-trees {
     height: 52vh !important;
     top: 14rem !important;
   }
+
   .img-mountain {
     height: 55vh !important;
     top: 10rem !important;
@@ -97,6 +115,7 @@ html {
   .festival-box {
     height: 65vh !important;
   }
+
   .festival-p {
     width: 87% !important;
   }
@@ -104,12 +123,15 @@ html {
   .culture-box {
     margin-bottom: 5rem !important;
   }
+
   .culture-text-box {
     width: 99% !important;
   }
+
   .img-culture {
     height: 310px !important;
   }
+
   .img-artList {
     height: 345px !important;
   }
@@ -123,6 +145,7 @@ html {
     top: -12rem !important;
     left: -9rem !important;
   }
+
   .img-pernik2 {
     right: -6.4rem !important;
     height: 709px !important;
@@ -131,11 +154,12 @@ html {
   .review-box {
     padding-top: 13rem !important;
     height: 130vh !important;
-    gap: 7rem;
+    gap: 7rem !important;
   }
+
   .profile-box {
     width: 100% !important;
-    gap: 6rem;
+    gap: 6rem !important;
   }
 
   .profile-wrap {
@@ -143,11 +167,13 @@ html {
     padding: 4rem 2rem 2rem 1rem !important;
     gap: 2rem !important;
   }
+
   .img-review-wrap {
     top: -3.5rem !important;
     width: 110px !important;
     height: 110px !important;
   }
+
   .img-profileList {
     width: 90px !important;
     height: 90px !important;
@@ -162,36 +188,34 @@ html {
   .main-box {
     padding-top: 9rem !important;
   }
+
   .header-text-box {
     top: 8rem !important;
     gap: 1rem !important;
   }
+
   .header-2 {
     font-size: 2.4rem !important;
   }
+
   .header-3 {
     font-size: 1.4rem;
   }
+
   .img-pernik2 {
     right: -4.8rem !important;
     height: 709px !important;
   }
+
   .text-section {
     font-size: 1rem !important;
   }
-  .profile-box {
-    width: 100% !important;
-    gap: 3rem;
-  }
-  .profile-wrap {
-    width: 280px !important;
-    padding: 4rem 1rem 2rem 1rem !important;
-    gap: 2rem !important;
-  }
+
   .img-goaBawah {
     top: 62rem !important;
     bottom: 0rem !important;
   }
+
   .img-artList {
     height: 290px !important;
     gap: 1rem;
@@ -221,9 +245,11 @@ html {
   .festival-box {
     height: 35vh !important;
   }
+
   .culture-box {
     height: 65vh !important;
   }
+
   .header-box {
     width: 100% !important;
   }
@@ -235,21 +261,32 @@ html {
   .text-section {
     display: none;
   }
+
   .img-pernik1,
   .img-pernik2 {
     display: none;
   }
 
   .review-box {
-    padding-top: 13rem !important;
-    height: 113vh !important;
-    gap: 5rem;
+    padding-top: 14rem !important;
+    height: 110vh !important;
+    gap: 5rem !important;
+  }
+  .profile-box {
+    width: 100% !important;
+    gap: 3rem !important;
   }
 
+  .profile-wrap {
+    width: 302px !important;
+    padding: 4rem 1rem 2rem 1rem !important;
+    gap: 2rem !important;
+  }
   .img-goaBawah {
     top: 52rem !important;
     bottom: 0rem !important;
   }
+
   .img-goaAtas {
     top: -10rem !important;
   }
@@ -260,6 +297,7 @@ html {
     height: 100px !important;
     gap: 0.5rem;
   }
+
   .img-pernik2 {
     right: -5rem !important;
     height: 690px !important;

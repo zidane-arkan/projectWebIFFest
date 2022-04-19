@@ -387,9 +387,9 @@ html {
     grid-template-columns: auto auto !important;
     gap: 2rem;
   }
-  .culture-box {
-    height: 95vh !important;
-  }
+ .culture-box {
+    height: 100vh !important;
+}
   #rev1 {
     flex-direction: column;
     column-gap: 2rem;
@@ -413,7 +413,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 375px) {
   .header-culture {
     width: 311px !important;
   }

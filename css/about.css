@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 425px) {
   .grid-cols-2 {
     display: grid;
@@ -23,4 +24,11 @@
   #conten-pic {
     margin: 0 1rem;
   }
+=======
+#vecOrna {
+  background-image: url(/img/abstract.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+>>>>>>> 02d7dea3439c6d9cdd8cfffa9d11d01df8e43edd
 }

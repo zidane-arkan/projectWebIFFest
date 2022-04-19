@@ -367,7 +367,7 @@ html {
   }
 
   .header-culture {
-    width: 361px !important;
+    width: 350px !important;
   }
   .header-3 {
     font-size: 1rem !important;
@@ -378,7 +378,7 @@ html {
   }
 
   .img-artList {
-    width: 166px !important;
+    width: 159px !important;
     height: 300px !important;
     gap: 1rem;
   }
@@ -387,9 +387,9 @@ html {
     grid-template-columns: auto auto !important;
     gap: 2rem;
   }
- .culture-box {
+  .culture-box {
     height: 100vh !important;
-}
+  }
   #rev1 {
     flex-direction: column;
     column-gap: 2rem;

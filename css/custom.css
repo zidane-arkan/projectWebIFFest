@@ -26,7 +26,7 @@ html {
   }
 
   .culture-text-box {
-    width: 90% !important;
+    width: 98% !important;
   }
 
   .img-trees {
@@ -90,6 +90,9 @@ html {
   .text-section {
     font-size: 0.9rem !important;
   }
+  .text-culture {
+    width: 75% !important;
+  }
 
   .top-img-box {
     height: 76vh !important;
@@ -125,7 +128,7 @@ html {
   }
 
   .culture-text-box {
-    width: 99% !important;
+    width: 97% !important;
   }
 
   .img-culture {

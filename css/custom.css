@@ -449,6 +449,15 @@ html {
 }
 
 @media only screen and (max-width: 375px) {
+  .img-trees {
+    height: 20vh !important;
+    top: 12rem !important;
+  }
+
+  .main-box {
+    margin-top: 5px !important;
+    padding-top: 9rem !important;
+  }
   .header-culture {
     width: 311px !important;
   }

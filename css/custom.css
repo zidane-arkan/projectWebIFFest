@@ -16,11 +16,28 @@ html {
   background-color: #311d38;
 }
 
-.img-mountain{
+/* Animation Section */
+.header-title-box{
   opacity: 0;
-  transform: translateY(1000px);
+  transition: ease-in .2s;
+}
+.btn-more-box{
+  opacity:0;
+  transition: ease-in-out .2s;
 }
 
+.img-mountain{
+  opacity: 0;
+  transform: translateY(320px);
+  transition: ease-out 1s;
+}
+.img-trees{
+  opacity: 0;
+  transform: translateY(120px);
+  transition: ease-out .3s;
+}
+
+/* Responsive Section */
 @media only screen and (max-width: 1440px) {
   .header-2 {
     font-size: 3.5rem !important;

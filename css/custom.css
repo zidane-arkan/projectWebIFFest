@@ -30,7 +30,7 @@ html {
 }
 .button-explore:hover {
   font-weight: bold;
-  color: #F97316; 
+  color: #f97316;
   background-color: #fff;
 }
 
@@ -228,6 +228,9 @@ html {
     padding-top: 9rem !important;
   }
 
+  .header-title-box {
+    gap: .5rem !important;
+  }
   .header-text-box {
     top: 8rem !important;
     gap: 1rem !important;
@@ -374,7 +377,7 @@ html {
     gap: 1rem !important;
   }
   .header-title-box {
-    gap: 0.5rem !important;
+    gap: 0rem !important;
   }
 
   .img-background {

@@ -25,6 +25,14 @@ html {
   opacity: 0;
   transition: ease-in-out 0.2s;
 }
+.button-explore {
+  transition: all 0.3s;
+}
+.button-explore:hover {
+  font-weight: bold;
+  color: #F97316; 
+  background-color: #fff;
+}
 
 .img-mountain {
   opacity: 0;

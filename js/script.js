@@ -1,6 +1,6 @@
 onload = function () {
     setTimeout(() => {
-        let customAnimation = anime({
+    anime({
             targets: '.img-mountain',
             keyframes: [
                 { translateY: 300 },
@@ -39,25 +39,9 @@ onload = function () {
         .add({
             targets: '.header-title-box',
             opacity: 1,
-        }, '+=2500')
+        }, '+=2400')
         .add({
             targets: '.btn-more-box',
             opacity: 1,
-        }, '+=800');
+        }, '+=400');
 };
-
-// var tl = anime.timeline({
-//     easing: 'easeOutExpo',
-//     duration: 800,
-//     direction: 'alternate'
-// });
-// // Add children
-// tl
-// .add({
-//     targets: '.img-mountain',
-//     translateY: 300,
-// })
-// .add({
-//     targets: '.img-trees',
-//     translateY: 250,
-// })

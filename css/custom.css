@@ -17,28 +17,32 @@ html {
 }
 
 /* Animation Section */
-.header-title-box{
+.header-title-box {
   opacity: 0;
-  transition: ease-in .2s;
+  transition: ease-in 0.2s;
 }
-.btn-more-box{
-  opacity:0;
-  transition: ease-in-out .2s;
+.btn-more-box {
+  opacity: 0;
+  transition: ease-in-out 0.2s;
 }
 
-.img-mountain{
+.img-mountain {
   opacity: 0;
   transform: translateY(320px);
   transition: ease-out 1s;
 }
-.img-trees{
+.img-trees {
   opacity: 0;
   transform: translateY(120px);
-  transition: ease-out .3s;
+  transition: ease-out 0.3s;
 }
 
 /* Responsive Section */
 @media only screen and (max-width: 1440px) {
+  .main-box {
+    margin-top: -9px;
+  }
+
   .header-2 {
     font-size: 3.5rem !important;
   }
@@ -98,6 +102,7 @@ html {
 
 @media only screen and (max-width: 1024px) {
   .main-box {
+    margin-top: -8px !important;
     padding-top: 11rem !important;
   }
 
@@ -127,7 +132,7 @@ html {
   }
 
   .img-trees {
-    height: 52vh !important;
+    height: 51vh !important;
     top: 14rem !important;
   }
 
@@ -211,6 +216,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .main-box {
+    margin-top: -10px !important;
     padding-top: 9rem !important;
   }
 
@@ -259,7 +265,7 @@ html {
   }
 
   .img-trees {
-    height: 42vh !important;
+    height: 41vh !important;
     top: 14rem !important;
   }
 
@@ -348,6 +354,9 @@ html {
     font-size: 14px !important;
   }
 
+  .main-box {
+    margin-top: -6px !important;
+  }
   .top-img-box {
     height: 42vh !important;
   }
@@ -372,7 +381,7 @@ html {
   }
 
   .img-trees {
-    height: 22vh !important;
+    height: 20.5vh !important;
     top: 12rem !important;
   }
 

@@ -45,6 +45,12 @@ html {
   transition: ease-out 0.3s;
 }
 
+.img-artList{
+  transition: all .3s;
+}
+.img-artList:hover{
+  opacity: .8;
+}
 /* Responsive Section */
 @media only screen and (max-width: 1440px) {
   .main-box {
